@@ -1,0 +1,46 @@
+body{
+  background: rgb(21, 164, 157);
+}
+.container{
+  max-width: 500px;
+}
+.delete{
+  cursor:pointer;
+}
+
+input[type=text],
+input[type=text]:focus{
+  border:2px solid rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+input[type=text]::placeholder {
+  color: wheat;
+}
+.filtered{
+  display:none !important;
+}
+.popup{
+  border-radius: 10px;
+  width:300px;
+  height:200px;
+  background: rgba(0, 0, 0, 0.2);
+  color: wheat;
+  border:2px solid rgba(255, 255, 255, 0.8);
+  position:fixed;
+  top:30%;
+  left:15%;
+  margin-top: -100px;
+  margin-left: -150px;
+  z-index: 200;
+}
+.popup_text{
+  margin-top:10px;
+  height:100px;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+button{
+  border:1px solid white !important;
+}
